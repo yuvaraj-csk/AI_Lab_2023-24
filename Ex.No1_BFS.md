@@ -21,7 +21,6 @@ To write a python program to implement Breadth first Search.
 
 
 ### Program:
-~~~
 graph = {
   '5' : ['3','7'],
   '3' : ['2', '4'],
@@ -42,10 +41,11 @@ def bfs(visited, graph, node): #function for BFS
       if neighbour not in visited:
         visited.append(neighbour)
         queue.append(neighbour)
+print("BFS order is")
 bfs(visited, graph, '5')  
-~~~
 
 ### Output:
+BFS order is
 ![image](https://github.com/yuvaraj-csk/AI_Lab_2023-24/assets/134052574/2e167707-149e-4538-850e-ad84da959eb3)
 
 ### Result:
