@@ -1,9 +1,16 @@
-# Ex.No: 10 Learning – Use Supervised Learning  
+# Ex.No: 13 Learning – Use Supervised Learning  
 ### DATE:                                                                             
 ### REGISTER NUMBER : 212221040187
 ### AIM: 
 To write a program to train the classifier for heart disease.
 ###  Algorithm:
+Step 1- Collect a dataset with features and labels.
+Step 2- Data Preprocessing like handle missing values and split datas for feature scaling.
+Step 3- Choose a suitable machine learning model logistic regression
+Step 4- Train the selected model on the training dataset
+Step 5- Evaluate the trained model on the testing dataset
+Step 6- Optimize model hyperparameters to improve performance like random search or grid search.
+Step 7- Deploy the model for real world predictions.
 
 ### Program:
 ```
@@ -58,6 +65,12 @@ print(X)
 print(Y)
 ```
 ![image](https://github.com/yuvaraj-csk/AI_Lab_2023-24/assets/134052574/b39778e7-35c6-466e-ad86-8b3ebbf3ab66)
+
+### Model Training
+```
+model = LogisticRegression()
+model.fit(X_train, Y_train)
+```
 ### Model Evaluation and Accuracy Score
 ```
 # accuracy on training data
